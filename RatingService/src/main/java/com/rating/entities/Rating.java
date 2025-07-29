@@ -12,6 +12,8 @@ public class Rating {
 	private String hotelId;
 	private int rating;
 	private String feedback;
+	
+	
 	public String getRatingId() {
 		return ratingId;
 	}
@@ -47,6 +49,9 @@ public class Rating {
 		return "Rating [ratingId=" + ratingId + ", userId=" + userId + ", hotelId=" + hotelId + ", rating=" + rating
 				+ ", feedback=" + feedback + "]";
 	}
+	
+	
+	
 	
 	
 	

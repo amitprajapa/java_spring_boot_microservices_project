@@ -53,11 +53,11 @@ public class User {
 		this.name = name;
 	}
 
-	public String getEmial() {
+	public String getEmail() {
 		return email;
 	}
 
-	public void setEmial(String email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
 
@@ -69,14 +69,20 @@ public class User {
 		this.about = about;
 	}
 
+	public List<Rating> getRatings() {
+		return ratings;
+	}
+
+	public void setRatings(List<Rating> ratings) {
+		this.ratings = ratings;
+	}
+
 	@Override
 	public String toString() {
 		return "User [userId=" + userId + ", name=" + name + ", email=" + email + ", about=" + about + ", ratings="
 				+ ratings + "]";
 	}
 
-	
-	
 	
 
 }
