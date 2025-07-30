@@ -1,6 +1,6 @@
 spring:
   application:
-    name: UserService
+    name: USERSERVICE
 
   datasource:
     url: jdbc:mysql://localhost:3306/microservices
